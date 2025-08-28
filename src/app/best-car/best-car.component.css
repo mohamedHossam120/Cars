@@ -1,0 +1,41 @@
+.car img{
+   width: 100%;
+}
+.car{
+    margin-top:100px;
+}
+.btn-blue{
+    color: rgb(0, 0, 197);
+    background-color: rgb(172, 172, 255);
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+}
+.pars{
+    margin-top: 5%;
+    padding-left: 10%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.par{
+    margin-top: 5%;
+}
+.par2{
+    display: flex;
+    flex-direction: row;
+}
+.par2 .logo{
+   color: blue;
+   background-color: rgb(181, 181, 255);
+   height: max-content;
+   width: max-content;
+   padding: 15px 15px;
+   border-radius: 10px;
+   margin-top: 3%;
+   margin-right: 5%;
+}
+.detail2{
+    font-size: 12px;
+    letter-spacing: 0px;
+}

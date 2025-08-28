@@ -1,0 +1,23 @@
+.image {
+    width: 100% !important;
+    margin-top: 100px;
+}
+
+.blue {
+    background-color: rgb(144, 144, 250);
+    color: blue;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.right {
+    padding-left: 10%;
+    margin-top: 5%;
+}
+.pargraph{
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}

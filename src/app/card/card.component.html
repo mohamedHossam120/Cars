@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="card"  style="width: 16rem;" *ngFor="let car of cars | slice:0:4" [routerLink]="['/carDetail', car.id]" >
+                <img src="assets/car2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{car.car}}</h5>
+                    <p class="card-text"><i class="fa-solid fa-star"></i><span class="rating"></span><span
+                            class="review">(3.2 reviews)</span></p>
+                    <div class="spans">
+                        <p><i class="fa-solid fa-snowflake"></i> Air Conditioning</p>
+                        <p><i class="fa-solid fa-bolt"></i>electric</p>
+                        <p><i class="fa-solid fa-person"></i> 4 passagers</p>
+                        <p><i class="fa-solid fa-door-open"></i> 4 Doors</p>
+                    </div>
+                    <hr>
+                    <div class="price">
+                        <p>price</p>
+                        <p><span class="span_price">{{car.price}}</span>/day</p>
+                    </div>
+                    <button class="btn btn-primary rent">Rent Now <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <button type="button" class="btn btn-outline-dark" routerLink='/Home/Cars'>All Cars <i
+                    class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+</body>
+
+</html>

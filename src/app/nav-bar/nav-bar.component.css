@@ -1,0 +1,41 @@
+
+.sign {
+    margin-left: 10%;
+}
+@media (max-width: 899px) {
+    .sign {
+        margin-left: 1%;
+    }
+}
+.Sign-up{
+    width: max-content;
+    background-color: blue;
+    color: white;
+}
+@media (min-width: 900px) {
+    .sign {
+        margin-left: 10%;
+    }
+
+    .home {
+        display: inline-block;
+        margin-left: 50%;
+    }
+
+    .Sign-up {
+        margin-right: 150px;
+    }
+    .navbar-brand{
+        margin-left: 100px;
+    }
+}
+.navbar{
+    background-color: white !important;
+    margin: 20px 0px 20px 0px;
+}
+.nav-link {
+  white-space: nowrap;
+}
+.navbar-brand{
+    color: blue;
+}

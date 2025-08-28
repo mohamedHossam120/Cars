@@ -1,0 +1,76 @@
+.title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.free{
+    color: blue;
+}
+.par1{
+    font-size: 15px;
+    font-weight: 500;
+}
+.btns {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn-black {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+    border-radius: 12px;
+    padding: 8px 18px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    width: 160px;
+    height: 55px;
+}
+
+.btn-black:hover {
+    background-color: #222;
+    transform: scale(1.05);
+}
+
+.btn-span {
+    font-size: 11px;
+    line-height: 1;
+}
+
+.btn-span2 {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 3px;
+}
+.inputs{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: column;
+    margin-right: 25%;
+}
+.inputs input{
+    height: 40px;
+    width: 300px;
+    font-size: 18px;
+    display: block;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: #000;
+    background-color: rgb(183, 211, 253);
+    border: none;
+}
+.inputs button{
+    margin-top: 30px;
+    width: 200px;
+}
+.download img{
+    width: 100%;
+    margin-top: 100px;
+}
